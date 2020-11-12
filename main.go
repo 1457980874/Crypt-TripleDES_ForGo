@@ -16,4 +16,5 @@ func main() {
 	fmt.Println(cipherData)
 	origin, _ := crypt.TripleDESDeCrypt(cipherData, key)
 	fmt.Println(string(origin))
+
 }
